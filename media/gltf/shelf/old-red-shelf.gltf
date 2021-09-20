@@ -1,0 +1,228 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                3,
+                4,
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Mesh_0",
+            "translation" : [
+                4.913302421569824,
+                -3.1086723804473877,
+                2.1189699172973633
+            ]
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "Shelf.obj.cleaner.materialmerger.gles"
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode (gltf orientation matrix)",
+            "rotation" : [
+                -0.5101723074913025,
+                -0.489616334438324,
+                -0.489616334438324,
+                0.5101723074913025
+            ],
+            "scale" : [
+                0.5,
+                0.5,
+                0.5
+            ],
+            "translation" : [
+                1.4520467519760132,
+                0,
+                -2.518463611602783
+            ]
+        },
+        {
+            "name" : "Light",
+            "rotation" : [
+                0.3104444146156311,
+                0.15002548694610596,
+                -0.07929787784814835,
+                0.935322642326355
+            ],
+            "translation" : [
+                2.6241984367370605,
+                6.963347434997559,
+                1.5130096673965454
+            ]
+        },
+        {
+            "name" : "Camera",
+            "rotation" : [
+                0.483536034822464,
+                0.33687159419059753,
+                -0.20870360732078552,
+                0.7804827094078064
+            ],
+            "translation" : [
+                7.358891487121582,
+                4.958309173583984,
+                6.925790786743164
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "None",
+            "normalTexture" : {
+                "index" : 0,
+                "scale" : 0.18424242734909058,
+                "texCoord" : 0
+            },
+            "occlusionTexture" : {
+                "index" : 1,
+                "texCoord" : 0
+            },
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 2,
+                    "texCoord" : 0
+                },
+                "metallicRoughnessTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                }
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Mesh_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        },
+        {
+            "source" : 2
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "None_normal",
+            "uri" : "None_normal.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "None_metallicRoughness",
+            "uri" : "None_metallicRoughness.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "None_baseColor",
+            "uri" : "None_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1985,
+            "max" : [
+                0.8948135375976562,
+                1.6185576915740967,
+                4.803300380706787
+            ],
+            "min" : [
+                -1.1929683685302734,
+                -1.604810357093811,
+                -2.089547634124756
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1985,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1985,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4374,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 23820,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 23820,
+            "byteOffset" : 23820
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 15880,
+            "byteOffset" : 47640
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8748,
+            "byteOffset" : 63520
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 72268,
+            "uri" : "old-red-shelf.bin"
+        }
+    ]
+}
