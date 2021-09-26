@@ -59,10 +59,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                 auto-rotate
                 camera-controls> 
     
-                <button slot="ar-button" className="arbutton">
+                <!-- <button slot="ar-button" className="arbutton">
                 View in your space
-                </button>
+                </button> -->
             </model-viewer>
+          </div>
+          <div>
+            <viewAR></viewAR>
           </div>
           <div>
               QR Code here
@@ -131,7 +134,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
           textXRNotFoundTitle: "AR NOT FOUND",
           textExitXRTitle: "EXIT  AR",
         });
-        document.querySelector('header').appendChild(xrButton.domElement);
+        document.querySelector('viewAR').appendChild(xrButton.domElement);
 
         if (navigator.xr) {
           navigator.xr.isSessionSupported('immersive-ar')
