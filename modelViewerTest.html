@@ -43,26 +43,41 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
   </head>
   <body>
-    <header>
+      <div>
+          <div>
+                INSTRUCTIONS
+
+
+
+
+          </div>
+          <div>
+            <model-viewer src="media/gltf/blueSofa/blueSofa1.gltf" 
+                ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
+                alt="A 3D model of an astronaut"
+                ar
+                auto-rotate
+                camera-controls> 
+    
+                <button slot="ar-button" className="arbutton">
+                View in your space
+                </button>
+            </model-viewer>
+          </div>
+          <div>
+              QR Code here
+          </div>
+      </div>
+    <!-- <header>
       <details open>
         <summary>Hit Test</summary>
         <p>
           This sample demonstrates use of hit testing to place virtual objects on real-world surfaces.
           <a class="back" href="./">Back</a>
-          <model-viewer src="media/gltf/blueSofa/blueSofa1.gltf" 
-          ios-src="https://modelviewer.dev/shared-assets/models/Astronaut.usdz"
-          alt="A 3D model of an astronaut"
-          ar
-          auto-rotate
-          camera-controls> 
-
-          <button slot="ar-button" className="arbutton">
-            View in your space
-          </button>
-        </model-viewer>
+          
         </p>
       </details>
-    </header>
+    </header> -->
     <script type="module">
       import {WebXRButton} from './js/util/webxr-button.js';
       import {Scene} from './js/render/scenes/scene.js';
